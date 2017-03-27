@@ -17,6 +17,7 @@
 		7C0611A91E8905D400E5CA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0611A71E8905D400E5CA9D /* LaunchScreen.storyboard */; };
 		7C0611B41E8905D400E5CA9D /* HollisIOSTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0611B31E8905D400E5CA9D /* HollisIOSTemplateTests.m */; };
 		7C0611BF1E8905D400E5CA9D /* HollisIOSTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0611BE1E8905D400E5CA9D /* HollisIOSTemplateUITests.m */; };
+		7C0611CD1E89125400E5CA9D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0611CC1E89125400E5CA9D /* Default-568h@2x.png */; };
 		A9D2510977A785712CD2E04D /* Pods_HollisIOSTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2804C5504F2B6A5D24633C3 /* Pods_HollisIOSTemplateTests.framework */; };
 		F06646FC87BD440453F0F736 /* Pods_HollisIOSTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6325D50E9985536CE0821B6D /* Pods_HollisIOSTemplate.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		7C0611BA1E8905D400E5CA9D /* HollisIOSTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollisIOSTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0611BE1E8905D400E5CA9D /* HollisIOSTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HollisIOSTemplateUITests.m; sourceTree = "<group>"; };
 		7C0611C01E8905D400E5CA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0611CC1E89125400E5CA9D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9E8A8F4C25A029A0E8FBD50C /* Pods-HollisIOSTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HollisIOSTemplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HollisIOSTemplateTests/Pods-HollisIOSTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		A2804C5504F2B6A5D24633C3 /* Pods_HollisIOSTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HollisIOSTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94070203506DBDCB1BEB649 /* Pods-HollisIOSTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HollisIOSTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-HollisIOSTemplate/Pods-HollisIOSTemplate.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		7C06118A1E8905D400E5CA9D = {
 			isa = PBXGroup;
 			children = (
+				7C0611CC1E89125400E5CA9D /* Default-568h@2x.png */,
 				7C0611951E8905D400E5CA9D /* HollisIOSTemplate */,
 				7C0611B21E8905D400E5CA9D /* HollisIOSTemplateTests */,
 				7C0611BD1E8905D400E5CA9D /* HollisIOSTemplateUITests */,
@@ -132,14 +135,14 @@
 			children = (
 				7C0611991E8905D400E5CA9D /* AppDelegate.h */,
 				7C06119A1E8905D400E5CA9D /* AppDelegate.m */,
+				7C0611A51E8905D400E5CA9D /* Assets.xcassets */,
+				7C0611A21E8905D400E5CA9D /* HollisIOSTemplate.xcdatamodeld */,
+				7C0611AA1E8905D400E5CA9D /* Info.plist */,
+				7C0611A71E8905D400E5CA9D /* LaunchScreen.storyboard */,
+				7C06119F1E8905D400E5CA9D /* Main.storyboard */,
+				7C0611961E8905D400E5CA9D /* Supporting Files */,
 				7C06119C1E8905D400E5CA9D /* ViewController.h */,
 				7C06119D1E8905D400E5CA9D /* ViewController.m */,
-				7C06119F1E8905D400E5CA9D /* Main.storyboard */,
-				7C0611A51E8905D400E5CA9D /* Assets.xcassets */,
-				7C0611A71E8905D400E5CA9D /* LaunchScreen.storyboard */,
-				7C0611AA1E8905D400E5CA9D /* Info.plist */,
-				7C0611A21E8905D400E5CA9D /* HollisIOSTemplate.xcdatamodeld */,
-				7C0611961E8905D400E5CA9D /* Supporting Files */,
 			);
 			path = HollisIOSTemplate;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C0611A91E8905D400E5CA9D /* LaunchScreen.storyboard in Resources */,
+				7C0611CD1E89125400E5CA9D /* Default-568h@2x.png in Resources */,
 				7C0611A61E8905D400E5CA9D /* Assets.xcassets in Resources */,
 				7C0611A11E8905D400E5CA9D /* Main.storyboard in Resources */,
 			);
@@ -615,6 +619,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HollisIOSTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hollischeng.HollisIOSTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -627,6 +632,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HollisIOSTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hollischeng.HollisIOSTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";

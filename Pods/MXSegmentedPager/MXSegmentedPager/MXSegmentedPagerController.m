@@ -22,7 +22,7 @@
 
 #import "MXSegmentedPagerController.h"
 
-@interface MXSegmentedPagerController () <MXPageSegueDelegate>
+@interface MXSegmentedPagerController () <MXPagerViewDelegate>
 
 @end
 
